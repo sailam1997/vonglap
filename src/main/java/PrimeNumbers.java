@@ -11,7 +11,7 @@ public class PrimeNumbers {
     }
     public static boolean isPrimeNumbers(int n){
         if (n < 2){
-            return true;
+            return false;
         }
         int squareRoot = (int) Math.sqrt(n);
         for (int i = 2 ; i <= squareRoot; i++){
